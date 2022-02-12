@@ -77,10 +77,11 @@ Arara Pet Shop
 ## Design
 - [x] Link Bootstrap 5 CSS & JS from CDN
 - [x] Research required Bootstrap Icons
-- [x] Research template hero image (Unsplash)
-- [x] Research pet images (Unsplash, Pixabay)
-- [x] Research pet shop logos
-- [ ] Design pet shop logo
+
+- [ ] Research images
+  - [x] Research template hero image (Unsplash)
+  - [x] Research pet images (Unsplash, Pixabay)
+  - [x] Research pet shop logos
 
 - [ ] Create page layout
 
@@ -183,6 +184,7 @@ Arara Pet Shop
 - [ ] Ascending/descending toggle button
 - [ ] Group animals into different arrays by species
 - [ ] Modal to display backstory for each animal
+- [ ] Design pet shop logo
 
 ## Finish
 - [ ] Check website design against template image guide
@@ -194,4 +196,4 @@ Arara Pet Shop
 - [ ] Send repository link through LMS
 - [ ] Invite codefactorygit as collaborator
 
-Work time: 8:40 hrs 
+Work time: 9:00 hrs 
