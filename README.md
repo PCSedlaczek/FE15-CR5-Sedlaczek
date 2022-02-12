@@ -1,10 +1,11 @@
 # FE15-CR5-Sedlaczek
-Pet Shop
+Arara Pet Shop
 
 ## Prepare
-- [x] Create private GitHub repository (FE15-CR5-Sedlaczek)
+- [x] Create private GitHub repo (FE15-CR5-Sedlaczek)
 - [x] Organize files into subfolders (img, css, scripts)
 - [x] Create Task List from project requirements
+
 - [x] Research common/punny/movie pet names
   - [x] Cats
   - [x] Dogs
@@ -20,6 +21,7 @@ Pet Shop
   - [ ] Hedgehogs
   - [ ] Goats
   - [ ] Pigs
+
 - [x] Research Pet shop slogans for page title
   - Little friends fur big hearts
   - Everything fur your pet
@@ -73,10 +75,12 @@ Pet Shop
   - Pet Heaven
 
 ## Design
+- [x] Link Bootstrap 5 CSS & JS from CDN
+- [x] Research required Bootstrap Icons
 - [x] Research template hero image (Unsplash)
 - [x] Research pet images (Unsplash, Pixabay)
-- [ ] Link Bootstrap 5 CSS & JS from CDN
-- [ ] Research required Bootstrap Icons
+- [x] Research pet shop logos
+- [ ] Design pet shop logo
 
 - [ ] Create page layout
 
@@ -190,4 +194,4 @@ Pet Shop
 - [ ] Send repository link through LMS
 - [ ] Invite codefactorygit as collaborator
 
-Work time: 8:20 hrs 
+Work time: 8:40 hrs 
