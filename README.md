@@ -128,9 +128,9 @@ Pet Shop
   - [ ] lg: 3 objects per row (with image and info)
 
 ## TypeScript
-- [ ] Initialize TypeScript configuration
-- [ ] Watch TypeScript for transpilation
-- [ ] Re-read notes from TypeScript Live Codings
+- [ ] TypeScript setup
+  - [ ] Initialize TypeScript configuration
+  - [ ] Watch TypeScript files for transpilation
 
 - [ ] Parent class Animal
   - [ ] constructor: name, gender, size, age, vaxx, img
@@ -183,6 +183,7 @@ Pet Shop
 ## Finish
 - [ ] Check website design against template image guide
 - [ ] Test responsiveness on desktop, tablet and mobile
+- [ ] Re-read notes from TypeScript Live Codings
 - [ ] Test TypeScript functionality
 - [ ] Format documents in Visual Studio Code
 - [ ] Push files to GitHub repository
