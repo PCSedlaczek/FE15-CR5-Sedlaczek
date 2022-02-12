@@ -87,35 +87,35 @@ Arara Pet Shop
   - [x] Watch TypeScript files for transpilation
 
 - [ ] Parent class Animal
-  - [ ] constructor: name, gender, size, age, vaxx, img
-    - [ ] public name: string
-    - [ ] public gender: string
-    - [ ] public size: number
-    - [ ] public age: number
-    - [ ] public vaxx: boolean
-    - [ ] public img: string
+  - [x] constructor: name, gender, size, age, vaxx, img
+    - [x] public name: string
+    - [x] public gender: string
+    - [x] public size: number
+    - [x] public age: number
+    - [x] public vaxx: boolean
+    - [x] public img: string
   - [ ] display(): method
 
 - [ ] Child class Cat extends Animals
-  - [ ] constructor: name, age, gender, size, vaxx, img, breed, furColor, breedInfo
-    - [ ] super: name, age, gender, size, vaxx, img
-    - [ ] public breed: string
-    - [ ] public furColor: string
-    - [ ] public breedInfo: string
+  - [x] constructor: name, age, gender, size, vaxx, img, breed, furColor, breedInfo
+    - [x] super: name, age, gender, size, vaxx, img
+    - [x] public breed: string
+    - [x] public furColor: string
+    - [x] public breedInfo: string
   - [ ] display(): method (overwrite)
 
 - [ ] Child class Dog extends Animals
-  - [ ] constructor: name, age, gender, size, vaxx, img, breed, trainingSkills
-    - [ ] super: name, age, gender, size, vaxx, img
-    - [ ] public breed: string
-    - [ ] public trainingSkills: boolean
+  - [x] constructor: name, age, gender, size, vaxx, img, breed, trainingSkills
+    - [x] super: name, age, gender, size, vaxx, img
+    - [x] public breed: string
+    - [x] public trainingSkills: boolean
   - [ ] display(): method (overwrite)
 
-- [ ] Array to store all objects from parent class
-  - [ ] min. 2 objects from Animal class stored in array
-  - [ ] min. 2 objects from Cat class stored in array
-  - [ ] min. 2 objects from Dog class stored in array
-  - [ ] Loop to display objects stored in array on screen
+- [x] Array to store all objects from parent class
+  - [x] min. 2 objects from Animal class stored in array
+  - [x] min. 2 objects from Cat class stored in array
+  - [x] min. 2 objects from Dog class stored in array
+  - [x] Loop to display objects stored in array on screen
 
 - [ ] Vaxx property color (green: true, red: false)
 
@@ -144,4 +144,4 @@ Arara Pet Shop
 - [ ] Send repository link through LMS
 - [ ] Invite codefactorygit as collaborator
 
-Work time: 11:00 hrs 
+Work time: 12:30 hrs 
