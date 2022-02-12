@@ -21,38 +21,38 @@ Pet Shop
   - [ ] Goats
   - [ ] Pigs
 - [x] Research Pet shop slogans for page title
-  - Little friends fur big hearts.
-  - Everything fur your pet.
+  - Little friends fur big hearts
+  - Everything fur your pet
   - Fur the love of pets!
-  - From Paws To Tail.
-  - Only the best for your fur baby.
-  - Pawsitively the best.
-  - Purr-veyors of purr-fect pets since .
-  - Quality Pet Supplies.
-  - Tail-wagging pet supplies.
-  - The Best A Pet Can Get.
-  - The best in pet care.
-  - The pet lovers’ store.
-  - Where pets come first.
-  - Your Neighborhood Pet Store.
-  - Your one-stop pet shop.
-  - A one-stop-shop for all pet lovers.
-  - A one-stop-shop for all your pet needs.
-  - Pets ready for their fur-ever homes.
+  - From Paws To Tail
+  - Only the best for your fur baby
+  - Pawsitively the best
+  - Purr-veyors of purr-fect pets since 
+  - Quality Pet Supplies
+  - Tail-wagging pet supplies
+  - The Best A Pet Can Get
+  - The best in pet care
+  - The pet lovers’ store
+  - Where pets come first
+  - Your Neighborhood Pet Store
+  - Your one-stop pet shop
+  - A one-stop-shop for all pet lovers
+  - A one-stop-shop for all your pet needs
+  - Pets ready for their fur-ever homes
   - Get your new furbaby right meow!
-  - We can fill your empty house.
-  - An extra soul to love.
-  - The cutest animals in the world.
-  - Pets are for life.
-  - Because every pet is special.
-  - Every pet deserves a home.
-  - Home to the world’s most lovable pets.
-  - Life is better with pets.
-  - Where you can find the cutest puppies in town.
-  - Your pets, our passion.
-  - Pet supplies for your trusted companion.
-  - A new dimension in pet care.
-  - Number 1 pet store for all you pet needs.
+  - We can fill your empty house
+  - An extra soul to love
+  - The cutest animals in the world
+  - Pets are for life
+  - Because every pet is special
+  - Every pet deserves a home
+  - Home to the world’s most lovable pets
+  - Life is better with pets
+  - Where you can find the cutest puppies in town
+  - Your pets, our passion
+  - Pet supplies for your trusted companion
+  - A new dimension in pet care
+  - Number 1 pet store for all you pet needs
   - Pets Paradise
   - Pawsitively Purrfect
   - Lucky Puppies
@@ -77,8 +77,6 @@ Pet Shop
 - [x] Research pet images (Unsplash, Pixabay)
 - [ ] Link Bootstrap 5 CSS & JS from CDN
 - [ ] Research required Bootstrap Icons
-
-## Layout
 
 - [ ] Create page layout
 
@@ -143,6 +141,7 @@ Pet Shop
     - [ ] public vaxx: boolean
     - [ ] public img: string
   - [ ] display(): method
+
 - [ ] Child class Cat extends Animals
   - [ ] constructor: name, age, gender, size, vaxx, img, breed, furColor, breedInfo
     - [ ] super: name, age, gender, size, vaxx, img
@@ -150,6 +149,7 @@ Pet Shop
     - [ ] public furColor: string
     - [ ] public breedInfo: string
   - [ ] display(): method (overwrite)
+
 - [ ] Child class Dog extends Animals
   - [ ] constructor: name, age, gender, size, vaxx, img, breed, trainingSkills
     - [ ] super: name, age, gender, size, vaxx, img
@@ -158,13 +158,14 @@ Pet Shop
   - [ ] display(): method (overwrite)
 
 - [ ] Array to store all objects from parent class
-- [ ] min. 2 objects from Animal class stored in array
-- [ ] min. 2 objects from Cat class stored in array
-- [ ] min. 2 objects from Dog class stored in array
-- [ ] Loop to display objects stored in array on screen
+  - [ ] min. 2 objects from Animal class stored in array
+  - [ ] min. 2 objects from Cat class stored in array
+  - [ ] min. 2 objects from Dog class stored in array
+  - [ ] Loop to display objects stored in array on screen
+
 - [ ] Vaxx property color (green: true, red: false)
 
-## Libraries
+## JavaScript Libraries
 - [ ] Animation with 1 library of choice
   - [ ] Cards on hover
   - [ ] Logo on load
