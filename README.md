@@ -83,27 +83,29 @@ Arara Pet Shop
   - [x] Research pet images (Unsplash, Pixabay)
   - [x] Research pet shop logos
 
+- [x] Research Google fonts
+
 - [ ] Create page layout
 
-  - [ ] Header
-    - [ ] Navbar
-      - [ ] Logo
-      - [ ] Home
-      - [ ] About Us
-      - [ ] Services
+  - [x] Header
+    - [x] Navbar
+      - [x] Logo
+      - [x] Home
+      - [x] About Us
+      - [x] Services
       - [ ] Age Sort button
-      - [ ] Search field
-      - [ ] Search button
-    - [ ] Hero image
+      - [x] Search field
+      - [x] Search button
+    - [x] Hero image
       - [ ] Swiper carousel
   
-  - [ ] Main
-    - [ ] Heading (Get to know our friends)
+  - [x] Main
+    - [x] Heading (Get to know our friends)
 
-    - [ ] Card grid 
-      - [ ] row-cols-1
-      - [ ] row-cols-md-2
-      - [ ] row-cols-lg-3
+    - [x] Card grid 
+      - [x] row-cols-1
+      - [x] row-cols-md-2
+      - [x] row-cols-lg-3
     
     - [ ] Cards
       - [ ] Card header
@@ -115,17 +117,15 @@ Arara Pet Shop
       - [ ] Card Footer
         - [ ] Child class properties
   
-  - [ ] Footer
-    - [ ] Social Media Buttons
-      - [ ] Facebook
-      - [ ] Twitter
-      - [ ] Google
-      - [ ] Instagram
-      - [ ] Linkedin
-      - [ ] GitHub
-    - [ ] Newsletter Signup textfield
-    - [ ] Subscribe Button
-    - [ ] Copyright info (ararapetshop.com)
+  - [x] Footer
+    - [x] Social Media Buttons
+      - [x] Facebook
+      - [x] Twitter
+      - [x] Google
+      - [x] Instagram
+      - [x] Linkedin
+      - [x] GitHub
+    - [x] Copyright info (ararapetshop.com)
 
 - [ ] Assure page responsiveness
   - [ ] sm: teaser of 1 object per row (without image)
@@ -133,9 +133,9 @@ Arara Pet Shop
   - [ ] lg: 3 objects per row (with image and info)
 
 ## TypeScript
-- [ ] TypeScript setup
-  - [ ] Initialize TypeScript configuration
-  - [ ] Watch TypeScript files for transpilation
+- [x] TypeScript setup
+  - [x] Initialize TypeScript configuration
+  - [x] Watch TypeScript files for transpilation
 
 - [ ] Parent class Animal
   - [ ] constructor: name, gender, size, age, vaxx, img
@@ -184,7 +184,6 @@ Arara Pet Shop
 - [ ] Ascending/descending toggle button
 - [ ] Group animals into different arrays by species
 - [ ] Modal to display backstory for each animal
-- [ ] Design pet shop logo
 
 ## Finish
 - [ ] Check website design against template image guide
@@ -196,4 +195,4 @@ Arara Pet Shop
 - [ ] Send repository link through LMS
 - [ ] Invite codefactorygit as collaborator
 
-Work time: 9:00 hrs 
+Work time: 11:00 hrs 
