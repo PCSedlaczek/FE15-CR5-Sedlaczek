@@ -4,6 +4,7 @@ Arara Pet Shop
 ## Prepare
 - [x] Create private GitHub repo (FE15-CR5-Sedlaczek)
 - [x] Organize files into subfolders (img, css, scripts)
+- [x] Link Bootstrap 5 CSS & JS files from CDN
 - [x] Create Task List from project requirements
 
 - [x] Research common/punny/movie pet names
@@ -75,10 +76,9 @@ Arara Pet Shop
   - Pet Heaven
 
 ## Design
-- [x] Link Bootstrap 5 CSS & JS from CDN
 - [x] Research required Bootstrap Icons
 
-- [ ] Research images
+- [x] Research images
   - [x] Research template hero image (Unsplash)
   - [x] Research pet images (Unsplash, Pixabay)
   - [x] Research pet shop logos
