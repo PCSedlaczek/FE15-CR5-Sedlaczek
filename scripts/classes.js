@@ -5,8 +5,10 @@ let animals = [];
 // let dogs: Array<Dog> = [];
 // let birds: Array<Bird> = [];
 // let reptiles: Array<Reptile> = [];
+// let swiper: Array<string> = [];
 class Animal {
-    constructor(name, gender, size, age, vaxx, img) {
+    constructor(species, name, gender, size, age, vaxx, img) {
+        this.species = species;
         this.name = name;
         this.gender = gender;
         this.size = size;
@@ -23,18 +25,23 @@ class Animal {
           <img src="img/animals/`;
     }
     cardMiddle() {
-        return `${this.img}" alt="${this.name}" 
+        return `${this.img}" alt="${this.species} ${this.name}" 
           class="card-img-top d-none d-md-block">
-          <div class="card-header text-center bg-dark text-white position-relative">${this.name}
+          <div class="card-header text-center bg-dark text-white position-relative">${this.name} 
+            <span class="card-title d-inline d-md-none">
+            (${this.species})</span>
+            <!-- Toggle image button -->
             <button type="button" title="Show image"
-            class="btn exp-btn1 btn-outline-dark text-white position-absolute top-0 end-0 m-2 p-0 d-block d-md-none d-lg-none">
-              <i class="exp-icon1 bi bi-arrows-expand" role="img"></i>
+            class="btn img-btn btn-outline-dark text-white position-absolute top-0 end-0 my-2 mx-3 p-0 d-block d-md-none d-lg-none">
+              <i class="img-icon bi bi-card-image" role="img"></i>
             </button>
+            <!-- Toggle info button -->
             <button type="button" title="Show info"
-            class="btn exp-btn2 btn-outline-dark text-white position-absolute top-0 end-0 m-2 p-0 d-none d-md-block d-lg-none">
-              <i class="exp-icon2 bi bi-arrows-expand" role="img"></i>
+            class="btn info-btn btn-outline-dark text-white position-absolute top-0 end-0 my-2 mx-3 p-0 d-none d-md-block d-lg-none">
+              <i class="info-icon bi bi-caret-down-fill" role="img"></i>
             </button>
           </div>
+          <!-- Card info -->
           <div class="card-body d-block d-md-none d-lg-block">
             <ul class="list-unstyled mb-2">
               <li>Gender: ${this.gender}</li>
@@ -61,8 +68,8 @@ class Animal {
     }
 }
 class Cat extends Animal {
-    constructor(name, gender, size, age, vaxx, img, breed, furColor, breedInfo) {
-        super(name, gender, size, age, vaxx, img);
+    constructor(species, name, gender, size, age, vaxx, img, breed, furColor, breedInfo) {
+        super(species, name, gender, size, age, vaxx, img);
         this.breed = breed;
         this.furColor = furColor;
         this.breedInfo = breedInfo;
@@ -91,8 +98,8 @@ class Cat extends Animal {
     }
 }
 class Dog extends Animal {
-    constructor(name, gender, size, age, vaxx, img, breed, training) {
-        super(name, gender, size, age, vaxx, img);
+    constructor(species, name, gender, size, age, vaxx, img, breed, training) {
+        super(species, name, gender, size, age, vaxx, img);
         this.breed = breed;
         this.training = training;
         // dogs.push(this);
