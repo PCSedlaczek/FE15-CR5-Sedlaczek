@@ -28,9 +28,14 @@ class Animal implements Animals {
 
   cardStart(): string {
     return `
-      <div class="col p-3">
+      <!-- Animal card -->
+      <div class="col px-3 pb-4">
         <div class="card">
-          <img class="card-img-top" src="img/animals/${this.img}" alt="${this.name}">
+          <img class="card-img-top" src="img/animals/`
+  }
+
+  cardMiddle(): string {
+     return `${this.img}" alt="${this.name}">
           <div class="card-header text-center bg-dark text-white">${this.name}</div>
           <div class="card-body">
             <ul class="list-unstyled mb-2">
@@ -55,7 +60,8 @@ class Animal implements Animals {
   }
 
   display(): string {
-    return this.cardStart() + this.cardEnd()
+    return this.cardStart() + this.cardMiddle() +
+      this.cardEnd()
   }
 }
 
@@ -74,6 +80,14 @@ class Cat extends Animal {
     // cats.push(this);
   }
 
+  cardStart(): string {
+    return `
+    <!-- Cat card -->
+    <div class="col px-3 pb-4">
+      <div class="card">
+        <img class="card-img-top" src="img/cats/`
+  }
+
   cardEnd(): string {
     return `
             <ul class="list-unstyled mb-2">
@@ -82,12 +96,12 @@ class Cat extends Animal {
               <li>
                 <a class="nav-link px-0" href="${this.breedInfo}">Breed info</a>
               </li>
-            </ul>
-          ${super.cardEnd}`
+            </ul>`
   }
 
   display(): string {
-    return super.cardStart() + this.cardEnd()
+    return this.cardStart() + super.cardMiddle() + 
+    this.cardEnd() + super.cardEnd()
   }
 }
 
@@ -105,16 +119,24 @@ class Dog extends Animal {
     // dogs.push(this);
   }
 
+  cardStart(): string {
+    return `
+    <!-- Dog card -->
+    <div class="col px-3 pb-4">
+      <div class="card">
+        <img class="card-img-top" src="img/dogs/`
+  }
+
   cardEnd(): string {
     return `
             <ul class="list-unstyled mb-2">
               <li>Breed: ${this.breed}</li>
               <li>Training: ${this.training}</li>
-            </ul>
-          ${super.cardEnd}`
+            </ul>`
   }
 
-  display() {
-    return super.cardStart() + this.cardEnd()
+  display(): string {
+    return this.cardStart() + super.cardMiddle() + 
+      this.cardEnd() + super.cardEnd()
   }
 }

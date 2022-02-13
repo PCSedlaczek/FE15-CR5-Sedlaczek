@@ -17,9 +17,13 @@ class Animal {
     }
     cardStart() {
         return `
-      <div class="col p-3">
+      <!-- Animal card -->
+      <div class="col px-3 pb-4">
         <div class="card">
-          <img class="card-img-top" src="img/animals/${this.img}" alt="${this.name}">
+          <img class="card-img-top" src="img/animals/`;
+    }
+    cardMiddle() {
+        return `${this.img}" alt="${this.name}">
           <div class="card-header text-center bg-dark text-white">${this.name}</div>
           <div class="card-body">
             <ul class="list-unstyled mb-2">
@@ -42,7 +46,8 @@ class Animal {
       </div>`;
     }
     display() {
-        return this.cardStart() + this.cardEnd();
+        return this.cardStart() + this.cardMiddle() +
+            this.cardEnd();
     }
 }
 class Cat extends Animal {
@@ -53,6 +58,13 @@ class Cat extends Animal {
         this.breedInfo = breedInfo;
         // cats.push(this);
     }
+    cardStart() {
+        return `
+    <!-- Cat card -->
+    <div class="col px-3 pb-4">
+      <div class="card">
+        <img class="card-img-top" src="img/cats/`;
+    }
     cardEnd() {
         return `
             <ul class="list-unstyled mb-2">
@@ -61,11 +73,11 @@ class Cat extends Animal {
               <li>
                 <a class="nav-link px-0" href="${this.breedInfo}">Breed info</a>
               </li>
-            </ul>
-          ${super.cardEnd}`;
+            </ul>`;
     }
     display() {
-        return super.cardStart() + this.cardEnd();
+        return this.cardStart() + super.cardMiddle() +
+            this.cardEnd() + super.cardEnd();
     }
 }
 class Dog extends Animal {
@@ -75,15 +87,22 @@ class Dog extends Animal {
         this.training = training;
         // dogs.push(this);
     }
+    cardStart() {
+        return `
+    <!-- Dog card -->
+    <div class="col px-3 pb-4">
+      <div class="card">
+        <img class="card-img-top" src="img/dogs/`;
+    }
     cardEnd() {
         return `
             <ul class="list-unstyled mb-2">
               <li>Breed: ${this.breed}</li>
               <li>Training: ${this.training}</li>
-            </ul>
-          ${super.cardEnd}`;
+            </ul>`;
     }
     display() {
-        return super.cardStart() + this.cardEnd();
+        return this.cardStart() + super.cardMiddle() +
+            this.cardEnd() + super.cardEnd();
     }
 }
