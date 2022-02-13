@@ -11,7 +11,7 @@ Arara Pet Shop
 - [x] Research common/punny/movie pet names
   - [x] Cats
   - [x] Dogs
-  - [ ] Bunnies
+  - [x] Bunnies
   - [ ] Hamsters
   - [ ] Guinea pigs
   - [ ] Mice
@@ -56,15 +56,15 @@ Arara Pet Shop
       - [x] row-cols-md-2
       - [x] row-cols-lg-3
     
-    - [ ] Cards
-      - [ ] Card header
-        - [ ] Card image (hidden on small)
-        - [ ] Card title (centered)
-      - [ ] Card body
-        - [ ] Parent class properties
-        - [ ] Vaxx button
-      - [ ] Card Footer
-        - [ ] Child class properties
+    - [x] Cards
+      - [x] Card header
+        - [x] Card image (hidden on small)
+        - [x] Card title (centered)
+      - [x] Card body
+        - [x] Parent class properties
+        - [x] Vaxx button
+      - [x] Card Footer
+        - [x] Child class properties
   
   - [x] Footer
     - [x] Social Media Buttons
@@ -86,7 +86,7 @@ Arara Pet Shop
   - [x] Initialize TypeScript configuration
   - [x] Watch TypeScript files for transpilation
 
-- [ ] Parent class Animal
+- [x] Parent class Animal
   - [x] constructor: name, gender, size, age, vaxx, img
     - [x] public name: string
     - [x] public gender: string
@@ -94,22 +94,22 @@ Arara Pet Shop
     - [x] public age: number
     - [x] public vaxx: boolean
     - [x] public img: string
-  - [ ] display(): method
+  - [x] display(): method
 
-- [ ] Child class Cat extends Animals
+- [x] Child class Cat extends Animals
   - [x] constructor: name, age, gender, size, vaxx, img, breed, furColor, breedInfo
     - [x] super: name, age, gender, size, vaxx, img
     - [x] public breed: string
     - [x] public furColor: string
     - [x] public breedInfo: string
-  - [ ] display(): method (overwrite)
+  - [x] display(): method (overwrite)
 
-- [ ] Child class Dog extends Animals
+- [x] Child class Dog extends Animals
   - [x] constructor: name, age, gender, size, vaxx, img, breed, trainingSkills
     - [x] super: name, age, gender, size, vaxx, img
     - [x] public breed: string
     - [x] public trainingSkills: boolean
-  - [ ] display(): method (overwrite)
+  - [x] display(): method (overwrite)
 
 - [x] Array to store all objects from parent class
   - [x] min. 2 objects from Animal class stored in array
@@ -139,9 +139,9 @@ Arara Pet Shop
 - [ ] Test responsiveness on desktop, tablet and mobile
 - [ ] Re-read notes from TypeScript Live Codings
 - [ ] Test TypeScript functionality
-- [ ] Format documents in Visual Studio Code
-- [ ] Push files to GitHub repository
-- [ ] Send repository link through LMS
+- [x] Format documents in Visual Studio Code
+- [x] Push files to GitHub repository
+- [x] Send repository link through LMS
 - [ ] Invite codefactorygit as collaborator
 
-Work time: 12:30 hrs 
+Work time: 17:00 hrs 
