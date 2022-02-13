@@ -32,7 +32,8 @@ Arara Pet Shop
   - [x] Research pet images (Unsplash, Pixabay)
   - [x] Research pet shop logos
 
-- [x] Research Google fonts
+- [x] Research webfont for heading (Kalam)
+- [x] Research font for cards (Comic Sans MS)
 
 - [ ] Create page layout
 
@@ -76,10 +77,10 @@ Arara Pet Shop
       - [x] GitHub
     - [x] Copyright info (ararapetshop.com)
 
-- [ ] Assure page responsiveness
-  - [ ] sm: teaser of 1 object per row (without image)
-  - [ ] md: 2 teasers per row (with image)
-  - [ ] lg: 3 objects per row (with image and info)
+- [x] Assure page responsiveness
+  - [x] sm: teaser of 1 object per row (without image)
+  - [x] md: 2 teasers per row (with image)
+  - [x] lg: 3 objects per row (with image and info)
 
 ## TypeScript
 - [x] TypeScript setup
@@ -117,7 +118,7 @@ Arara Pet Shop
   - [x] min. 2 objects from Dog class stored in array
   - [x] Loop to display objects stored in array on screen
 
-- [ ] Vaxx property color (green: true, red: false)
+- [x] Vaxx property color (green: true, red: false)
 
 ## JavaScript Libraries
 - [ ] Animation with 1 library of choice
@@ -135,13 +136,12 @@ Arara Pet Shop
 - [ ] Modal to display backstory for each animal
 
 ## Finish
-- [ ] Check website design against template image guide
-- [ ] Test responsiveness on desktop, tablet and mobile
-- [ ] Re-read notes from TypeScript Live Codings
-- [ ] Test TypeScript functionality
+- [x] Check website design against template image guide
+- [x] Test responsiveness on desktop, tablet and mobile
+- [x] Test TypeScript functionality
 - [x] Format documents in Visual Studio Code
 - [x] Push files to GitHub repository
 - [x] Send repository link through LMS
 - [ ] Invite codefactorygit as collaborator
 
-Work time: 17:00 hrs 
+Work time: 21:00 hrs 
