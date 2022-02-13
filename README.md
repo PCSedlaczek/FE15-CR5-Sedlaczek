@@ -35,7 +35,7 @@ Arara Pet Shop
 - [x] Research webfont for heading (Kalam)
 - [x] Research font for cards (Comic Sans MS)
 
-- [ ] Create page layout
+- [x] Create page layout
 
   - [x] Header
     - [x] Navbar
@@ -47,7 +47,7 @@ Arara Pet Shop
       - [x] Search field
       - [x] Search button
     - [x] Hero image
-      - [ ] Swiper carousel
+      - [x] Swiper carousel
   
   - [x] Main
     - [x] Heading (Get to know our friends)
@@ -121,16 +121,17 @@ Arara Pet Shop
 - [x] Vaxx property color (green: true, red: false)
 
 ## JavaScript Libraries
-- [ ] Animation with 1 library of choice
+- [x] Animation with 1 library of choice
   - [ ] Cards on hover
   - [ ] Logo on load
   - [ ] Navbar links
-  - [ ] Swiper for Hero image
+  - [x] Swiper for Hero image
 
 ## Bonus
-- [ ] Ascending button in navbar to organize by age
+- [x] Ascending button in navbar to organize by age
 
 ## Extend
+- [x] Swiper image array
 - [ ] Ascending/descending toggle button
 - [ ] Group animals into different arrays by species
 - [ ] Modal to display backstory for each animal
@@ -142,6 +143,6 @@ Arara Pet Shop
 - [x] Format documents in Visual Studio Code
 - [x] Push files to GitHub repository
 - [x] Send repository link through LMS
-- [ ] Invite codefactorygit as collaborator
+- [x] Invite codefactorygit as collaborator
 
-Work time: 21:00 hrs 
+Work time: 25:00 hrs 
