@@ -20,12 +20,22 @@ class Animal {
       <!-- Animal card -->
       <div class="col px-3 pb-4">
         <div class="card">
-          <img class="card-img-top" src="img/animals/`;
+          <img src="img/animals/`;
     }
     cardMiddle() {
-        return `${this.img}" alt="${this.name}">
-          <div class="card-header text-center bg-dark text-white">${this.name}</div>
-          <div class="card-body">
+        return `${this.img}" alt="${this.name}" 
+          class="card-img-top d-none d-md-block">
+          <div class="card-header text-center bg-dark text-white position-relative">${this.name}
+            <button type="button" title="Show image"
+            class="btn exp-btn1 btn-outline-dark text-white position-absolute top-0 end-0 m-2 p-0 d-block d-md-none d-lg-none">
+              <i class="exp-icon1 bi bi-arrows-expand" role="img"></i>
+            </button>
+            <button type="button" title="Show info"
+            class="btn exp-btn2 btn-outline-dark text-white position-absolute top-0 end-0 m-2 p-0 d-none d-md-block d-lg-none">
+              <i class="exp-icon2 bi bi-arrows-expand" role="img"></i>
+            </button>
+          </div>
+          <div class="card-body d-block d-md-none d-lg-block">
             <ul class="list-unstyled mb-2">
               <li>Gender: ${this.gender}</li>
               <li>Age: ${this.age}</li>
@@ -33,9 +43,9 @@ class Animal {
             </ul>
             <!-- Vaccination status -->
             <p class="card-text text-center">
-              <button type="button" class="btn">
+              <button type="button" class="btn vaxx-btn">
                 Vaccination 
-                <i class="bi" role="img"></i>
+                <i class="vaxx-icon bi" role="img"></i>
               </button>
             </p>`;
     }
@@ -63,7 +73,7 @@ class Cat extends Animal {
     <!-- Cat card -->
     <div class="col px-3 pb-4">
       <div class="card">
-        <img class="card-img-top" src="img/cats/`;
+        <img src="img/cats/`;
     }
     cardEnd() {
         return `
@@ -92,7 +102,7 @@ class Dog extends Animal {
     <!-- Dog card -->
     <div class="col px-3 pb-4">
       <div class="card">
-        <img class="card-img-top" src="img/dogs/`;
+        <img src="img/dogs/`;
     }
     cardEnd() {
         return `
